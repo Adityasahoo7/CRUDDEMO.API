@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\DotNet Project\\CRUDDEMO.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|d:\\dotnet project\\cruddemo.api\\cruddemo.api\\models\\dtos\\getallempdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|solutionrelative:cruddemo.api\\models\\dtos\\getallempdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|d:\\dotnet project\\cruddemo.api\\cruddemo.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|solutionrelative:cruddemo.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|d:\\dotnet project\\cruddemo.api\\cruddemo.api\\models\\dtos\\getallempdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|solutionrelative:cruddemo.api\\models\\dtos\\getallempdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|d:\\dotnet project\\cruddemo.api\\cruddemo.api\\models\\employeesd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|solutionrelative:cruddemo.api\\models\\employeesd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{652DDF00-EB38-47BA-80D8-AAF078184AE4}|CRUDDEMO.API\\CRUDDEMO.API.csproj|d:\\dotnet project\\cruddemo.api\\cruddemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,33 +42,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Employeesd.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\Employeesd.cs",
+              "RelativeDocumentMoniker": "CRUDDEMO.API\\Models\\Employeesd.cs",
+              "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\Employeesd.cs",
+              "RelativeToolTip": "CRUDDEMO.API\\Models\\Employeesd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T16:33:55.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GetAllEmpDto.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\DTOs\\GetAllEmpDto.cs",
               "RelativeDocumentMoniker": "CRUDDEMO.API\\Models\\DTOs\\GetAllEmpDto.cs",
               "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\DTOs\\GetAllEmpDto.cs",
               "RelativeToolTip": "CRUDDEMO.API\\Models\\DTOs\\GetAllEmpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T16:19:25.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CRUDDEMO.API\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "CRUDDEMO.API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAUwCQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwDQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T14:53:30.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CRUDDEMO.API\\Models\\AppDbContext.cs",
@@ -72,12 +89,11 @@
               "RelativeToolTip": "CRUDDEMO.API\\Models\\AppDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:23:04.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T14:23:04.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\appsettings.json",
               "RelativeDocumentMoniker": "CRUDDEMO.API\\appsettings.json",
@@ -85,25 +101,23 @@
               "RelativeToolTip": "CRUDDEMO.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-02T14:19:50.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T14:19:50.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CRUDDEMO.API",
+              "DocumentIndex": 6,
+              "Title": "CRUDDEMO.API.csproj",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\CRUDDEMO.API.csproj",
               "RelativeDocumentMoniker": "CRUDDEMO.API\\CRUDDEMO.API.csproj",
               "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\CRUDDEMO.API.csproj",
               "RelativeToolTip": "CRUDDEMO.API\\CRUDDEMO.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-02T14:19:37.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T14:19:37.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Program.cs",
               "RelativeDocumentMoniker": "CRUDDEMO.API\\Program.cs",
@@ -111,8 +125,7 @@
               "RelativeToolTip": "CRUDDEMO.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:17:01.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T14:17:01.373Z"
             }
           ]
         }

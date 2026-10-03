@@ -1,4 +1,5 @@
 ﻿using CRUDDEMO.API.Models;
+using CRUDDEMO.API.Models.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -41,5 +42,17 @@ namespace CRUDDEMO.API.Controllers
             var employee = await _context.Employeesds.FromSqlRaw("exec getempbyid @id ={0}", id).ToListAsync();
             return Ok(employee);
         }
+
+        [HttpPost]
+        public async Task<IActionResult>Addemployee(GetAllEmpDto dto)
+        {
+            var emp = new Employeesd
+            {
+                Name = dto.Name,
+
+            };
+        }
+
+
     }
 }
