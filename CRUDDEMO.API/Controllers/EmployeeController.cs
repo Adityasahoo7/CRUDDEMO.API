@@ -39,18 +39,38 @@ namespace CRUDDEMO.API.Controllers
         [Route("GetEmpByID")]
         public async Task<IActionResult>GetEmpByID(int id)
         {
-            var employee = await _context.Employeesds.FromSqlRaw("exec getempbyid @id ={0}", id).ToListAsync();
+            // var employee = await _context.Employeesds.FromSqlRaw("exec getempbyid @id ={0}", id).ToListAsync();
+
+            var employee = await _context.Employeesds.FindAsync(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
             return Ok(employee);
         }
 
         [HttpPost]
+        [Route("AddEmployee")]
         public async Task<IActionResult>Addemployee(GetAllEmpDto dto)
         {
             var emp = new Employeesd
             {
                 Name = dto.Name,
+                Salary=dto.Salary,
+                Phone=dto.Phone,
+                Email=dto.Email,
+                Age=dto.Age,
+                Department=dto.Department,
+                JoiningDate=dto.JoiningDate
+
 
             };
+
+            await _context.Employeesds.AddAsync(emp);
+            await _context.SaveChangesAsync();
+
+            return Ok(emp);
+
         }
 
 
