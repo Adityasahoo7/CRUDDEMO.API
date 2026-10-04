@@ -41,7 +41,8 @@ namespace CRUDDEMO.API.Controllers
         {
             // var employee = await _context.Employeesds.FromSqlRaw("exec getempbyid @id ={0}", id).ToListAsync();
 
-            var employee = await _context.Employeesds.FindAsync(id);
+            // var employee = await _context.Employeesds.FindAsync(id);
+            var employee = await _context.Employeesds.FirstOrDefaultAsync(e => e.Id == id);
             if (employee == null)
             {
                 return NotFound();
@@ -73,6 +74,23 @@ namespace CRUDDEMO.API.Controllers
 
         }
 
+        [HttpGet]
+        [Route("GetEMPByEmail")]
+        public async Task<IActionResult> getempbyemail(string email) {
+
+            var employee = await _context.Employeesds.SingleOrDefaultAsync(e => e.Email == email);
+            return Ok(employee);
+        
+        }
+
+        [HttpGet]
+        [Route("GetTotalempCount")]
+        public async Task<IActionResult> gettotalempcount()
+        {
+            var count = await _context.Employeesds.CountAsync();
+
+            return Ok(count);
+        }
 
     }
 }

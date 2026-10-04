@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDDEMO.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c77d3a38bee2c7cc9324bacc910e75f6564e229")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a13d86c13abc6ff7a8946864e83ad78a94e9b4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDDEMO.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDDEMO.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
