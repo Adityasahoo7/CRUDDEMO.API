@@ -91,6 +91,23 @@ namespace CRUDDEMO.API.Controllers
 
             return Ok(count);
         }
+        [HttpGet]
+        [Route("Gettop10")]
+        public async Task<IActionResult> gettoptenemp() {
 
+            var employee = await _context.Employeesds.OrderBy(e => e.Id).Take(10).ToListAsync();
+
+            return Ok (employee);
+        
+        }
+
+        [HttpGet]
+        [Route("Getempbyemail")]
+        public async Task<IActionResult> getempbyemailid(string email)
+        {
+            var employee = await _context.Employeesds.AnyAsync(e => e.Email == email);
+
+            return Ok(employee);
+        }
     }
 }
