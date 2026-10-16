@@ -109,5 +109,32 @@ namespace CRUDDEMO.API.Controllers
 
             return Ok(employee);
         }
+
+        [HttpGet]
+        [Route("Getemployeenameonly")]
+        public async Task<IActionResult> getempnameonly()
+        {
+            var empname = await _context.Employeesds.Select(e => e.Name).ToListAsync();
+            return Ok(empname);
+        }
+        [HttpGet]
+        [Route("Getallempnochnage")]
+        public async Task<IActionResult> getempnochange()
+        {
+            var employee = await _context.Employeesds.AsNoTracking().ToListAsync();
+
+            return Ok(employee);
+        }
+
+
+        [HttpGet]
+        [Route("GetHighestID")]
+        public async Task<IActionResult> gethighestid()
+        {
+            var employee = await _context.Employeesds.OrderByDescending(e => e.Id).FirstOrDefaultAsync();
+
+            return Ok(employee);
+        }
+
     }
 }
