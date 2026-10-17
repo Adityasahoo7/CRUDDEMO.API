@@ -146,5 +146,14 @@ namespace CRUDDEMO.API.Controllers
             return Ok(employee);
         }
 
+        [HttpGet]
+        [Route("Getsalarybetween")]
+        public async Task<IActionResult> GetSalarybetween()
+        {
+            var employee = await _context.Employeesds.Where(e => e.Salary >= 30000 && e.Salary <= 60000).ToListAsync();
+
+            return Ok(employee);
+        }
+
     }
 }
