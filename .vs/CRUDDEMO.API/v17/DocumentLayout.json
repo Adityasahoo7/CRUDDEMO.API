@@ -26,20 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CRUDDEMO.API\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "CRUDDEMO.API\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T16:50:10.893Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -54,6 +42,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CRUDDEMO.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CRUDDEMO.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwJ0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T14:53:30.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CRUDDEMO.API\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "CRUDDEMO.API\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T16:50:10.893Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GetAllEmpDto.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Models\\DTOs\\GetAllEmpDto.cs",
@@ -63,19 +76,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T16:19:25.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "CRUDDEMO.API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\DotNet Project\\CRUDDEMO.API\\CRUDDEMO.API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "CRUDDEMO.API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA7wHwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:53:30.476Z",
-              "EditorCaption": ""
             }
           ]
         }
