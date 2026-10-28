@@ -162,6 +162,13 @@ namespace CRUDDEMO.API.Controllers
 
             return Ok(employee);
         }
+        [HttpGet]
+        [Route("GetIITdeptempandsalarymorethan50k")]
+        public async Task<IActionResult> get50k()
+        {
+            var employee = await _context.Employeesds.Where(e => e.Department == "IT" && e.Salary >= 50000).ToListAsync();
 
+            return Ok(employee);
+        }
     }
 }
