@@ -179,6 +179,18 @@ namespace CRUDDEMO.API.Controllers
             return Ok(employee);
         }
 
+        [HttpGet]
+        [Route("ListofdeptfromUser")]
+        public async Task<IActionResult> ListofdeptfromUser()
+        {
+            var dept = new List<string> { "IT", "HR", "RPA" };
+
+            var EMPLOYEE = await _context.Employeesds.Where(e => dept.Contains(e.Department)).ToListAsync();
+            return Ok(EMPLOYEE);
+                
+
+
+        }
 
 
 
