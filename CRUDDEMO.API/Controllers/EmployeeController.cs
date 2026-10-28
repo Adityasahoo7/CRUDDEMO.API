@@ -154,6 +154,14 @@ namespace CRUDDEMO.API.Controllers
 
             return Ok(employee);
         }
+        [HttpGet]
+        [Route("GetIITdeptemp")]
+        public async Task<IActionResult> Getiddept()
+        {
+            var employee = await _context.Employeesds.Where(e => e.Department == "IT").ToListAsync();
+
+            return Ok(employee);
+        }
 
     }
 }
