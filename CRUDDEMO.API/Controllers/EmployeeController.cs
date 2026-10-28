@@ -170,5 +170,17 @@ namespace CRUDDEMO.API.Controllers
 
             return Ok(employee);
         }
+
+        [HttpGet]
+        [Route("GetempIT&HR")]
+        public async Task<IActionResult> getempithr()
+        {
+            var employee = await _context.Employeesds.Where(e => e.Department == "IT" || e.Department == "HR").ToListAsync();
+            return Ok(employee);
+        }
+
+
+
+
     }
 }
