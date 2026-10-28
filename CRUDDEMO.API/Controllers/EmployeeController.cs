@@ -191,6 +191,15 @@ namespace CRUDDEMO.API.Controllers
 
 
         }
+        [HttpGet]
+        [Route("EmpNotinSalesSupport")]
+        public async Task<IActionResult> empnotinsalessupport()
+        {
+            var empdept = new List<string> { "Sales", "Support" };
+            var emp = await _context.Employeesds.Where(e => !empdept.Contains(e.Department)).ToListAsync();
+            return Ok(emp);
+        }
+
 
 
 
