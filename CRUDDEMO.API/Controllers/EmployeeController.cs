@@ -200,8 +200,21 @@ namespace CRUDDEMO.API.Controllers
             return Ok(emp);
         }
 
+        [HttpGet]
+        [Route("Younger30")]
+        public async Task<IActionResult> Getyoung()
+        {
+            var emp = await _context.Employeesds.Where(e => e.Age < 30).ToListAsync();
+            return Ok(emp);
+        }
 
-
+        [HttpGet]
+        [Route("YoungerBetween25&30")]
+        public async Task<IActionResult> Getyoungbtn()
+        {
+            var emp = await _context.Employeesds.Where(e => e.Age > 25 && e.Age < 30).OrderBy(e => e.Age).ToListAsync();
+            return Ok(emp);
+        }
 
     }
 }
