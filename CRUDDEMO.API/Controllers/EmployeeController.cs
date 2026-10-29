@@ -216,5 +216,12 @@ namespace CRUDDEMO.API.Controllers
             return Ok(emp);
         }
 
+        [HttpGet]
+        [Route("EmpnamestartwithA")]
+        public async Task<IActionResult> getempnamestartwitha()
+        {
+            var emp = await _context.Employeesds.Where(e => e.Name.StartsWith("A")).ToListAsync();
+            return Ok(emp);
+        }
     }
 }
