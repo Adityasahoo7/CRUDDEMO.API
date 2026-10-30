@@ -231,5 +231,15 @@ namespace CRUDDEMO.API.Controllers
             var emp = await _context.Employeesds.Where(e => e.Name.EndsWith("n")).ToListAsync();
 ;            return Ok(emp);
         }
+
+        [HttpGet]
+        [Route("Namecontainkumar")]
+        public async Task<IActionResult> getnameContainsKumar()
+        {
+            var emp = await _context.Employeesds.Where(e => e.Name.Contains("kumar")).ToListAsync();
+            return Ok(emp);
+        }
+
+
     }
 }
