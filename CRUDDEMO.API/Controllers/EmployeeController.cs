@@ -240,6 +240,15 @@ namespace CRUDDEMO.API.Controllers
             return Ok(emp);
         }
 
+        [HttpGet]
+        [Route("Namecontain_a")]
+        public async Task<IActionResult> Namecontaina()
+        {
+            var emp = await _context.Employeesds.Where(e => EF.Functions.Like(e.Name, "_a%")).ToListAsync();
+
+            return Ok(emp);
+        }
+
 
     }
 }
