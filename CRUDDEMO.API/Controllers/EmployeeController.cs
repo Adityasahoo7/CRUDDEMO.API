@@ -267,5 +267,15 @@ namespace CRUDDEMO.API.Controllers
         }
 
 
+        [HttpGet]
+        [Route("empjoinin2022")]
+        public async Task<IActionResult> joinemp()
+        {
+            var emp = await _context.Employeesds.Where(e => e.JoiningDate.Year == 2022).ToListAsync();
+
+            return Ok(emp);
+        }
+
+
     }
 }
