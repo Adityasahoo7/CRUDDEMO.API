@@ -257,6 +257,15 @@ namespace CRUDDEMO.API.Controllers
             return Ok(emp);
 
         }
+        [HttpGet]
+        [Route("phonenostart9")]
+        public async Task<IActionResult> phonenum()
+        {
+            var emp = await _context.Employeesds.Where(e => e.Phone.StartsWith("9")).ToListAsync();
+            return Ok(emp);
+
+        }
+
 
     }
 }
