@@ -249,6 +249,14 @@ namespace CRUDDEMO.API.Controllers
             return Ok(emp);
         }
 
+        [HttpGet]
+        [Route("getempgmail")]
+        public async Task<IActionResult> getempgmail()
+        {
+            var emp = await _context.Employeesds.Where(e => e.Email.EndsWith("@gmail.com")).ToListAsync();
+            return Ok(emp);
+
+        }
 
     }
 }
